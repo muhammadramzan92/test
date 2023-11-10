@@ -1,0 +1,47 @@
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  height:40vh;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.input {
+ 
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+.button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the message div */
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
